@@ -41,6 +41,7 @@
         exit {
             bindings = <&to 0>;
             key-positions = <29 19>;
+            layers = <5>;
         };
     };
 
@@ -94,10 +95,10 @@
 
         game {
             bindings = <
-&kp ESCAPE        &kp Q  &kp W  &kp E    &kp R        &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT    &kp A  &kp S  &kp D    &kp F        &trans  &trans  &trans  &trans  &trans
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C    &kp V        &trans  &trans  &trans  &trans  &trans
-                                &kp TAB  &kp SPACE    &trans  &trans
+&hm LEFT_WIN ESCAPE  &kp Q  &kp W  &kp E    &kp R        &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT       &kp A  &kp S  &kp D    &kp F        &trans  &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL     &kp Z  &kp X  &kp C    &kp V        &trans  &trans  &trans  &trans  &trans
+                                   &kp TAB  &kp SPACE    &trans  &trans
             >;
         };
     };
